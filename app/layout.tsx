@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <ConvexClerkProvider>
       <html lang="en">
-          <body className={`${manrope.className}`}>
+          <body suppressHydrationWarning className={`${manrope.className}`}>
               {children}
           </body>
       </html>

@@ -7,7 +7,6 @@ import { useQuery } from 'convex/react'
 import React from 'react'
 
 const Home = () => {
-  const tasks = useQuery(api.tasks.get);
   return (
 
     <div className='mt-9 flex flex-col gap-9'>
